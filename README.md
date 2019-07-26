@@ -4,7 +4,7 @@
   </a>
 </p>
 <h1 align="center">
-  gatsby-theme-RENAME_ME
+  Starter for creating child themes for gatsby-theme-blog
 </h1>
 
 ## Getting started
