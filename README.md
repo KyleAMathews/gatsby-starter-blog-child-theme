@@ -7,22 +7,20 @@
   gatsby-theme-RENAME_ME
 </h1>
 
-## Create a site from the starter
-```shell
-gatsby new new-blog https://github.com/KyleAMathews/gatsby-starter-theme-RENAME_ME
-cd new-blog
-gatsby develop
-```
+## Getting started
 
-## Structure
+1. Create the repo locally
 
-The theme is in the `gatsby-theme-RENAME_ME` directory.
+`gatsby new gatsby-theme-NAME KyleAMathews/gatsby-starter-blog-child-theme`
 
-The starter is in the `starter directory`
+2. Rename folders and strings from gatsby-theme-RENAME_ME to the name of your theme
 
+3. Run yarn to setup workspace
 
-You can run the starter and develop on the theme by running:
+`yarn`
 
-```sh
-yarn workspace starter start
-```
+4. Run the starter and start developing on the theme!
+
+`yarn workspace starter gatsby develop`
+
+Try changing colors at `gatsby-theme-*/src/gatsby-plugin-theme-ui/colors.js` and typography options at `gatsby-theme-*/src/gatsby-plugin-theme-ui/typography.js`
